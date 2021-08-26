@@ -4,3 +4,8 @@
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "*"
     Access-Control-Allow-Headers = "*"
+    [[redirects]]
+  from = "/data"
+  to = "/data.json"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
